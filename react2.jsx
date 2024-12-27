@@ -14,3 +14,4 @@ const [a, setA] = useState(0)
   )
 }
 
+export default App
