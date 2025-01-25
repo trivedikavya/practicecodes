@@ -48,3 +48,54 @@ const App = () => {
 }
 
 export default App
+
+
+// 2 way binding 
+
+import React, { useState } from 'react'
+
+const App = () => {
+
+
+const [username, setusername] = useState('')
+
+const sub = (e) => {
+  // prevent reload
+  e.preventDefault()
+  // name lidhu batava 
+console.log(username)
+// inital pachu set karva
+setusername('')
+}
+
+
+
+  return (
+    
+
+    <div>
+
+      <form className='' onSubmit={(e) => {
+        sub(e)
+      }}>
+
+        <input 
+        // initaly value
+        value={username} 
+        onChange={(e) => {
+          setusername(e.target.value)
+        }}
+        type="text" 
+        className='m-8 text-black border-black px-5 py-6 rounded' 
+        placeholder='LAKHO GABA'/>
+        <button className=' px-3 py-7 text-xl text-white bg-red-300 rounded m-7 Border-black border-solid' >SUBMIT</button>
+      </form>
+
+    </div>
+
+
+
+  )
+}
+
+export default App
