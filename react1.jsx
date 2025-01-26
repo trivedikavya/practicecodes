@@ -99,3 +99,57 @@ setusername('')
 }
 
 export default App
+
+
+
+// COMPONENTS  like (APP) includes just name nav and header the file are craeted somewhere in folder name components  nav and header 
+//app.jsx
+import React from 'react'
+import Header from './components/Header' // capitail must be file name capitalise 
+import Nav from './components/Nav' // a line mate just right once (click enter) line aya pachi self closing tag 
+const App = () => {
+  return (
+   <>
+   
+    <Nav></Nav>
+    
+   </>
+  )
+}
+
+export default App
+// in components folder Nav.jsx
+
+import React from 'react'
+import Header from './Header'
+
+const Nav = () => {
+  return (
+    <div>
+        <nav className='bg-black flex iteams-center justify-between p-3 m 5'> 
+      <h2 className='text-2xl text-white'>WEB-Gs </h2>
+      <div className='flex gap-8 text-white'>
+        <h4 className='text-xl'>about</h4>
+        <h4 className='text-xl'>contact</h4>
+        <h4 className='text-xl'>services</h4>
+        <h4 className='text-xl'>your account</h4>
+      </div>
+    </nav>
+    <div>
+        <Header />
+    </div>
+    </div>
+  )
+}
+
+export default Nav
+// in components folder Header.jsx
+import React from 'react'
+
+const Header = () => {
+  return (
+    <div>I am the header baby </div>
+  )
+}
+
+export default Header
