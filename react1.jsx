@@ -175,4 +175,34 @@ export default Header
 // Next hai bhai 
 // props 
 //app
-//components--Card
+import React from 'react'
+import Card from './components/Card'
+const App = () => {
+  const user = "leo"
+  const val = 10
+  
+  return (
+    <div>
+      <Card a={user} b={val} c ='100'/>
+      <Card a='Kavya legend '  />
+    </div>
+  )
+}
+
+export default App
+//components--Card.jsx
+import React from 'react'
+
+const Card = (props) => {
+    // ahiy bract ma atle variable ma value ayi exact value to use dot 
+  return (
+<div>
+    <div className='text-2xl'> User name is {props.a} </div>
+    <div className='text-2xl'> User name is {props.b} </div>
+    <div className='text-2xl'> User name is {props.c} </div>
+    </div>
+    
+  )
+}
+
+export default Card
