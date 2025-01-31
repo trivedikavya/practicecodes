@@ -173,3 +173,6 @@ const Header = () => {
 export default Header
 
 // Next hai bhai 
+// props 
+//app
+//components--Card
