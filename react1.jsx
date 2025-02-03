@@ -194,7 +194,7 @@ export default App
 import React from 'react'
 
 const Card = (props) => {
-    // ahiy bract ma atle variable ma value ayi exact value to use dot 
+    // ahiy bract ma atle variable ma value ayi exact value to use dot props
   return (
 <div>
     <div className='text-2xl'> User name is {props.a} </div>
