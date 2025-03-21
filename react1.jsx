@@ -241,3 +241,71 @@ const Card = (data) => {
 }
 
 export default Card
+// Json formate Ma data kayi rite mokalso
+//app jsx 
+import React from 'react'
+import Card from './components/Card'
+const App = () => {
+
+  const data =[
+    {
+      "name": "Alice Johnson",
+      "company": "Tech Innovators Ltd.",
+      "profession": "Software Engineer"
+    },
+    {
+      "name": "Rajesh Kumar",
+      "company": "Green Energy Corp.",
+      "profession": "Environmental Consultant"
+    },
+    {
+      "name": "Sophie Martin",
+      "company": "Creative Designs Inc.",
+      "profession": "Graphic Designer"
+    },
+    {
+      "name": "Daniel Lee",
+      "company": "FinTech Solutions",
+      "profession": "Data Analyst"
+    },
+    {
+      "name": "Elena Rodriguez",
+      "company": "Healthcare Plus",
+      "profession": "Medical Researcher"
+    }
+  ]
+  
+
+  return (
+    <div>
+     <div className="p-10">
+      { data.map((item, index) => {
+          return <Card key={index} name={item.name} company={item.company} profession={item.profession}/>
+      })
+      }
+    
+     </div>
+    </div>
+  )
+}
+
+export default App
+//card jsx 
+import React from 'react'
+
+const Card = (data) => {
+  return (
+    <div className="bg-white mr-1 text-black rounded-lg p-6 shadow-lg inline-block text-center">
+      {/* if photo bi json data ma leo hoye toh (src={data.photo})  */}
+          <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" className="w-32 h-32 rounded-full mx-auto mb-6"/>
+
+      
+          <h1>Heyy I am {data.name}</h1>
+          <h1>I work at {data.company}</h1>
+          <h1>AS  <span className='text-blue-800' > {data.profession} </span>  </h1>
+      
+    </div>
+  )
+}
+
+export default Card
