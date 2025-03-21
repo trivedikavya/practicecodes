@@ -206,3 +206,38 @@ const Card = (props) => {
 }
 
 export default Card
+
+
+
+// 21/03/25 Card data direact 
+//App jsx
+import React from 'react'
+import Card from './components/Card'
+const App = () => {
+  return (
+    <div>
+     <div className="p-10">
+      <Card name="Kavya" company="Google" profes="CEO"/>
+     </div>
+    </div>
+  )
+}
+
+export default App
+
+// Card jsx 
+import React from 'react'
+
+const Card = (data) => {
+  return (
+    <div className="bg-white text-black rounded-lg p-6 shadow-lg inline-block text-center">
+      
+          <h1>Heyy I am {data.name}</h1>
+          <h1>I work at {data.company}</h1>
+          <h1>AS {data.profes}</h1>
+      
+    </div>
+  )
+}
+
+export default Card
