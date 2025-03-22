@@ -352,3 +352,48 @@ const App = () => {
 
 export default App
 
+// Direact data no Button so use useeffect for that 
+import axios from 'axios'
+import React, { useEffect, useState } from 'react'
+
+const App = () => {
+
+  const [data, setData] = useState([])
+
+  const getData = async () =>{
+   const response = await axios.get('https://picsum.photos/v2/list?page=2&limit=10')  // api hai ye
+   const data = response.data
+    setData(data)
+    console.log(data)
+  }
+
+  useEffect(() => {
+    getData()
+  }, [])
+  
+
+
+  return (
+    <div className='p-10'>
+      {/* a button che  */}
+     
+      {/* a div che jema data print thay che */}
+
+      <div className='p-5 bg-slate-800 m-5'> 
+
+    {data.map(function(e,idx)  {
+      return <div key={idx} className='bg-slate-950 text-white text-center justify-between flex p-5 m-5 items-center rounded'>
+        <img src={e.download_url} alt="Avatar" className="w-32 h-32 rounded-full mx-auto mb-6"/>
+        <h1>{e.id} maken by {e.author}</h1>
+
+      </div>
+        
+    }
+    )}
+      </div>
+    </div>
+  )
+}
+
+export default App
+
