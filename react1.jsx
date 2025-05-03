@@ -397,3 +397,62 @@ const App = () => {
 
 export default App
 
+
+//router dom concept redirect thinsg browser import karavu router dom wrap mainjsx ma app ne   routes , route path , element , link 
+import React from 'react'
+import About from './pages/About'
+import { Route, Routes } from 'react-router-dom'
+import Home from './pages/Home'
+import Contact from './pages/Contect'
+import Head from './components/Head'
+
+const App = () => {
+  return (
+    <div>
+      <div>
+      <Head />   ano code basic nav bar jevo but used links so it will not usefull because it reloads 
+      </div>
+      
+      {/* like this we use router Dom in which routes name nu container wrap all route in it  */}
+      <Routes> 
+        {/* active state ma kayu page reahse means inital jyare user avse toh kayu page */}
+        <Route path="/"  element={<Home/>}/>
+        
+        {/* aaj container ma tamare badha page na routes atle link change toh kayo make like that   */}
+        <Route path="/about" element={<About />} />
+        <Route  path="/Leo" element={<Contact />}/>
+        {/* like that continue if you want to  */}
+      </Routes>
+    </div>
+  )
+}
+
+export default App 
+
+// to cover that we use 
+import React from 'react'
+import { Route, Routes, Link } from 'react-router-dom'
+import About from './pages/About'
+import Home from './pages/Home'
+
+const App = () => {
+  return (
+    <div>
+      {/* Navigation Menu */}
+      <nav style={{ display: 'flex', gap: '1rem', padding: '1rem', background: '#f0f0f0' }}>
+        <Link to="/Leo">Home</Link>
+        <Link to="/about">About</Link>
+      </nav>
+
+      {/* Routes */}
+      <Routes>
+        <Route path="/about" element={<About />} />
+        <Route path="/Leo" element={<Home />} />
+      </Routes>
+    </div>
+  )
+}
+
+export default App
+ 
+
