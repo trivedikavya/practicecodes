@@ -429,30 +429,27 @@ const App = () => {
 
 export default App 
 
-// to cover that we use 
-import React from 'react'
-import { Route, Routes, Link } from 'react-router-dom'
-import About from './pages/About'
-import Home from './pages/Home'
+rather than that  <Link to="/" className='text-blue-600 text-xl underline-offset-1'>Home</Link> line we can use anchor tag and in href put the path but it reloads so no moto of react 
 
-const App = () => {
+import React from 'react'
+import { Link } from 'react-router-dom'
+
+const Head = () => {
   return (
     <div>
-      {/* Navigation Menu */}
-      <nav style={{ display: 'flex', gap: '1rem', padding: '1rem', background: '#f0f0f0' }}>
-        <Link to="/Leo">Home</Link>
-        <Link to="/about">About</Link>
-      </nav>
-
-      {/* Routes */}
-      <Routes>
-        <Route path="/about" element={<About />} />
-        <Route path="/Leo" element={<Home />} />
-      </Routes>
+        <nav className='nav py-4 px-4 bg-gray-800 text-white flex justify-between'>
+            
+            <Link to="/" className='text-blue-600 text-xl underline-offset-1'>Home</Link>
+            <Link to="/Leo" className='text-blue-600 text-xl underline-offset-1'>Contact</Link>
+            <Link to="/about" className='text-blue-600 text-xl underline-offset-1'>about</Link>
+            
+            
+            
+       
+        </nav>
     </div>
   )
 }
 
-export default App
- 
+export default Head
 
