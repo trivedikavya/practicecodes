@@ -100,3 +100,29 @@ a.shift(); // remove first element from the array
 console.log(a)
 a.splice(2, 1); // remove element from index 2 thi 1 value 
 a.splice(2, 2); // remove element from index 2 thi 2 value
+
+// ek se zyada bande ki baat ki to hua array , ek bande ke baare ke baare mein saari baat ki to hua object 
+// object is like ek banda ki details Rakhna
+// blank obj 
+var b = {}
+// filled obj data avi rite 
+// props and methods 
+var aamit = {
+    name: "Amit", // name , age , city that are the props hai
+    age: 25,
+    city: "Delhi",
+    hobbies: ["reading", "gaming", "coding"], // simple array set in obj
+    isEmployed: true,
+    address: { // addres stup avi rite
+        street: "123 Main St",
+        zipCode: "110001"
+    },
+    greet: function() { // inbulit function in obj methods hai yee
+        console.log("Hello, my name is " + this.name);
+    }
+}
+
+
+// updating obj props
+aamit.age = 26; // updating age
+console.log(aamit.age);
