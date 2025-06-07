@@ -42,11 +42,28 @@ if(true) {
 //if false so this part will run 
 }
 
-//there is one more nested -loops if else if 
+//there is one more nested -conditional statement if else if 
 if(true){
 
 }else if(true){ // if one part will work then the loop is over
 
 }else{
 
+}
+
+//loops  for , while repeatetation work in Any differnent sene 
+//1111
+//1234 both are loop 
+//we have two types of loops for and while 
+for( let i; i<=11; i+2){ //start end change 
+    console.log(i);
+}
+for( let i; i<=11; i+2){
+    console.log(1);
+}
+
+let k = 0;
+while(k<=10){
+    cosole.log(k);
+    k++;
 }
