@@ -86,3 +86,17 @@ helo();
 
 console.log(add(2, 3)); // 5 ( 2 and 3 will go in function ) 2 , and 3 are arguments ✔
 //arguments are the values you pass to the function when you call it
+
+// arrays group of values  ( jyare ek var ma ek thi vadhare values store karvi hoy tyare use thaye ) ✔
+let a = [1, 2, 3, 4, 5]; // array of numbers work on index 0
+// push pop shift unshift
+a.push(6); // add 6 at the end of the array 
+console.log(a)
+a.pop(); // remove last element from the array
+console.log(a) 
+a.unshift(0); // add value at starting
+console.log(a)
+a.shift(); // remove first element from the array
+console.log(a)
+a.splice(2, 1); // remove element from index 2 thi 1 value 
+a.splice(2, 2); // remove element from index 2 thi 2 value
