@@ -5,7 +5,9 @@ for (let i = 0; i < 10; i++) {
 } // as for loop has Meaning in js so keyword
 
 
-// var and constant ✔
+// var , let and constant ✔
+// Feature	var	             let	         const
+// Scope	Function-scoped	Block-scoped	Block-scoped
 // note they both are english wORDS means that
 // var store value can be changed 
 // const store value can not be changed
