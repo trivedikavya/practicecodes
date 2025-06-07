@@ -69,3 +69,20 @@ while(k<=10){
     cosole.log(k);
     k++;
 }
+
+//functions ✔
+// a block of code you didn't have to write and Run put you make it for sepecific purpose or a task
+// when you want to reuse the code 
+//when you want to Run same process with differnet data
+// optimize karne keliye bi kaam ata hai
+function add(a, b) { // a and b are var parameters✔
+    // a and b are parameters ✔
+    return a + b;
+}
+function helo(){
+    console.log("hello duniya");
+}
+helo();
+
+console.log(add(2, 3)); // 5 ( 2 and 3 will go in function ) 2 , and 3 are arguments ✔
+//arguments are the values you pass to the function when you call it
