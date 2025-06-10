@@ -24,5 +24,7 @@ letl(); // ReferenceError: i is not defined
 // var itself add him in Window object , let & const are not added in window object
 
 // live eg if you write var a = 10; in console and then write a it will give you 10 but if you write let b = 20; and then write b it will give you error because let is not added in window object
+// browser context API  give 3 things windows , stack , heap memomry 
 
+//basically Have theory che so a BOOK MA che CLEAN EXPLAINATION 
 
