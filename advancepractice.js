@@ -28,3 +28,16 @@ letl(); // ReferenceError: i is not defined
 
 //basically Have theory che so a BOOK MA che CLEAN EXPLAINATION 
 
+
+// execution context meaning that It will create a imagenary container that Includes 
+// the variables , 
+// functions defined in the code block  
+// lexical enviroment of that Function .( it is an enviroment hich tells that Which things you can access and which Can't
+function aka() {
+    var a=12;
+    function leo() {
+        var b = 69;
+
+    }
+}
+// aka can acess --a and can acess leo but can't acces b due to lexical enviroment ( var can only be accessed in the block it is defined in or nearest parent block)
