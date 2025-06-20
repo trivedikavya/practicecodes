@@ -41,3 +41,21 @@ function aka() {
     }
 }
 // aka can acess --a and can acess leo but can't acces b due to lexical enviroment ( var can only be accessed in the block it is defined in or nearest parent block)
+
+
+// how can you copy the refernce value 
+// oli bhai basic js ma non primitive value array copy but if you chnage a so B ma je t ea ni copy value hoye te bi change 
+// a bav mathi tu koybi change kare toh a chnge thatye So how we can copy that 
+// by using spread operator
+const a = [1, 2, 3, 4, 5];
+// three dots are the spread operator 
+const b = [...a]; // This creates a shallow copy of the array 'a'
+//lets change the value of b
+b.pop(); // This removes the last element from array 'b'
+console.log(a); // Output: [1, 2, 3, 4, 5] // b ma Output: [1, 2, 3, 4]
+
+// same you can do with object 
+const obj = { name: "Oli", age: 25 };
+const objCopy = { ...obj }; // This creates a shallow copy of the object 'obj'
+//lets change the value of objCopy
+objCopy.age = 26; // This changes the age property in the copied object
