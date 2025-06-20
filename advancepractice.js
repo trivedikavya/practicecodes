@@ -93,3 +93,31 @@ switch(a){
     default:
         console.log("a is not between 1 and 5");
 }
+
+
+//foreach 
+// when ever you have array to use So you can use (array Foreach) ( jab apko har element mein kuch add karna ho )
+
+const array1 = [1, 2, 3, 4, 5];
+array1.forEach(function (leo) {
+  console.log(leo+2);
+});
+// note foreach never change the original array
+
+//forin
+// for in loop is used to iterate over the properties of an (object-- forin)
+const person = {
+  name: "John",
+  age: 30,
+  city: "New York"
+}
+for(var chacha in person){
+    console.log(chacha , person[chacha]);
+}
+
+// do while loop a case in which you have to ustilize that loop once no matter the Condition 
+ let a = 9;
+ do{
+        console.log("je match nahi ho raha",a);
+        a++;
+ } while(a < 5);
