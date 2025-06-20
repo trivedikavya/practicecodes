@@ -59,3 +59,37 @@ const obj = { name: "Oli", age: 25 };
 const objCopy = { ...obj }; // This creates a shallow copy of the object 'obj'
 //lets change the value of objCopy
 objCopy.age = 26; // This changes the age property in the copied object
+
+// js mein kuch bhi likho wo mainly that mainly have 2 types but it belongs to one type
+// truthy and Falsy are differnt then true and fales
+// falsy vlaues are = 0 , false , undefine , null , NaN , document.all rather than that are Truethy
+// if you convert them so always false come 
+// i written Leo ---- then it belong to either truthy or falsy
+if(7){
+    console.log("7 is truthy");
+}
+else{
+    console.log("7 is falsy");
+}
+
+// switch case
+let a = 7;
+switch(a){
+    case 1:
+        console.log("a is 1");
+        break;
+    case 2:
+        console.log("a is 2");
+        break;
+    case 3:
+        console.log("a is 3");
+        break;
+    case 4:
+        console.log("a is 4");
+        break;
+    case 5:
+        console.log("a is 5");
+        break;
+    default:
+        console.log("a is not between 1 and 5");
+}
