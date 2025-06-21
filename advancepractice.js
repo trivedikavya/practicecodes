@@ -129,3 +129,15 @@ for(var chacha in person){
 setTimeout(function(){
      console.log("This is a callback function - it runs after 2 seconds");
 }, 2000);
+
+// first class functions 
+// mean you can give var name to functions that  can pass around like you can decelare a varaible to a Function 
+// var a = function() {
+//     console.log("Hello from a");
+// };
+// function(as name)-- pachi ander nu leo
+calll(function(){console.log("Hello from leo");})
+
+function calll(leo){
+    leo();
+}
