@@ -121,3 +121,11 @@ for(var chacha in person){
         console.log("je match nahi ho raha",a);
         a++;
  } while(a < 5);
+
+
+// callback functions 
+// a functions in whhich we give req then vo req jayegi vo server ya app ke pass then vo req full fill hoke vapish aye gi it take time toh kitna time lagega uske liye hum callback function ka use karte hai
+// aisa code jo baadmein chalega jab vo complete ho jaye tab dena 
+setTimeout(function(){
+     console.log("This is a callback function - it runs after 2 seconds");
+}, 2000);
