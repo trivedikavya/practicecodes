@@ -147,3 +147,11 @@ var a = [1, 2, 3, 4, 5]; // ye Object hai not array
 // do you know you can add negative index in array 
 a[-1] = 6; // ye bhi chalega in other it wil work in JS only 
 
+// update and delete properties in an object
+var oba = {
+    name : "leo" ,
+    age : 18,
+}
+
+oba.name = 'Kevin';//upade
+delete oba.age;//delete
