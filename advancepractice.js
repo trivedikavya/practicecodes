@@ -141,3 +141,9 @@ calll(function(){console.log("Hello from leo");})
 function calll(leo){
     leo();
 }
+
+// how arrays are made behind the scenes
+var a = [1, 2, 3, 4, 5]; // ye Object hai not array 
+// do you know you can add negative index in array 
+a[-1] = 6; // ye bhi chalega in other it wil work in JS only 
+
