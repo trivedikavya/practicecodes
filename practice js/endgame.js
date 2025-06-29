@@ -86,3 +86,37 @@ var ans = (function(){ // given the name to the private function
     }
 })() // This last bractes is calling the function immediately
 // 
+
+
+// protoype 
+// its is basically a property which Js by default it give to a object when it created ( Made by js Createors , and developers )
+var leo = {
+    name: "legend"
+}
+// above i explane In dairy You can check 
+// dev.console ma ja Then leo. check then write leo and enter then you can see protoype property
+//best eg 
+var arr = [1,2,3]; // this U created 
+arr.length // but this is not created by you , Like that Protoype is a property which is given by js to a object when it created
+
+
+//protype inheritance
+// je baap ma Che a chkrama Toh avej and AMa advance Bi kayik hoye 
+// code ma rite 
+var human = {
+    canhavesex: true,
+    canhavelegs: true,
+    canhavehands: true,
+    havethreehearts: false,     
+}
+
+var kavya = {
+    __proto__: human,
+    name: "kavya",
+    canmakewebsite: true,
+    canmakeapp: true,
+}
+// My guide note 
+// Deploye Guide : Html , css , js -- Netlify 
+// Deploye Guide : Html , css , js, reactjs , nextjs -- vercel
+// Deploye Guide : fullstack -- railway.com 
