@@ -120,3 +120,122 @@ var kavya = {
 // Deploye Guide : Html , css , js -- Netlify 
 // Deploye Guide : Html , css , js, reactjs , nextjs -- vercel
 // Deploye Guide : fullstack -- railway.com 
+
+// protoype 
+// its is basically a property which Js by default it give to a object when it created ( Made by js Createors , and developers )
+var leo = {
+    name: "legend"
+}
+// above i explane In dairy You can check 
+// dev.console ma ja Then leo. check then write leo and enter then you can see protoype property
+//best eg 
+var arr = [1,2,3]; // this U created 
+arr.length // but this is not created by you , Like that Protoype is a property which is given by js to a object when it created
+
+
+//protype inheritance
+// je baap ma Che a chkrama Toh avej and AMa advance Bi kayik hoye 
+// code ma rite 
+var human = {
+    canhavesex: true,
+    canhavelegs: true,
+    canhavehands: true,
+    havethreehearts: false,     
+}
+
+var kavya = {
+    __proto__: human, // protoype inheritance
+    name: "kavya",
+    canmakewebsite: true,
+    canmakeapp: true,
+}
+// My guide note 
+// Deploye Guide : Html , css , js -- Netlify 
+// Deploye Guide : Html , css , js, reactjs , nextjs -- vercel
+// Deploye Guide : fullstack -- railway.com 
+
+
+// so Questions copy then Copy different ..? notification ..? 
+
+
+ //  this call apply bind 
+ //this
+ // gobal scope ( {} a bracket ni bar , a bracket in ander toh private or local scope )
+ //eg 
+ var a = 12; // global che bhai a 
+ function leo(){
+    var b = 13; // this is a local scope
+ }
+
+ // now come to topic 
+ console.log(this); // this is a global object in browser a print kare ( Window)
+
+ // diff between Func and method ( Func which are in object that Is method)
+
+ var a = {
+    likho: function(){
+        console.log(this); // ye obj retrn karega
+    } // this is a method
+ }
+ // concution 
+ // gobal - this - value - window
+ // local same as above 
+ // method - this - value - object
+ // in dom -- it refer to before event listener
+ var butto = document.querySelector("button");
+ butto.addEventListener("click", function(){
+    console.log(this); // this is a button element
+ });
+
+  var buttoo = document.querySelector("button");
+ buttoo.addEventListener("click", function(){
+    this.style.color ="red"; // this is a button element 
+ });
+
+ // A kem janvu joyiye this use thaye toh tane khaber padvi joyiye 
+
+ //call
+    // call is a method which is used to call a function with a specific context
+    function slayy(){
+        console.log(this.name); // this is a global object
+    }
+    var n = {name: "legend"};
+    slayy.call(n); // this will print "legend" because we are passing n as the context ( Atle have window no jagiyaye N object return karse and apde have ani ander thi value layisu)
+    // if parameters hoye toh slayy.call(n,1,2,3); // this will print "legend" and pass 1,2,3 as parameters to the function
+
+    // call and apply are same but apply takes an array as a second argument
+    function slayy2(a,b,c){
+        console.log(this.name, a, b, c); // this is a global object
+    }
+
+    var obj = {name: "legend"};
+    // you have to pass 2 arguments to the function
+    slayy2.apply(obj, [1, 2, 3]); // this will print "legend 1 2 3" because we are passing obj as the context and [1, 2, 3] as the parameters
+
+    // bind 
+    // bind is a method which is used to create a new function with a specific context
+    function slayy(){
+        console.log(this.name); // this is a global object
+    }
+    var n = {name: "legend"};
+    slayy.bind(n); // this will return a new function with n as the context
+    var newFunc = slayy.bind(n); // this will return a new function with n
+// this is very useful in react use when U have to run a function onclick or onsubmit
+    newFunc(); // this will print "legend" because we are passing n as the context
+
+    // pure and impure functions
+    // pure 
+    //2 things ( Not chaneg any Global variable , and same i/p give same o/p )
+    // pure function is a function which always returns the same output for the same input and does not have any side effects
+    function add(a, b){
+        return a + b; // this is a pure function because it always returns the same output for the same input
+    }
+    add(1, 2); // this will return 3
+
+    //not this ( This is not a pure function because it changes the global variable c , and not always returns the same output for the same input)
+    var c= 10; // this is a global variable
+    function add(a, b){
+        c = 12;
+        return Math.random*b+a+c; // this is a pure function because it always returns the same output for the same input
+    }
+    add(1, 2); 
