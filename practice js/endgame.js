@@ -239,3 +239,23 @@ var kavya = {
         return Math.random*b+a+c; // this is a pure function because it always returns the same output for the same input
     }
     add(1, 2); 
+
+// clouser 
+//it is like a memory ek time per Ek vaat pati gayi hoye pn pachi bi ane Juni vaat yaad hoye
+function createthings() {
+    let secreats = [];
+    return function (secreat) {
+        secreats.push(secreat);
+        console.log(secreats);
+    };
+} 
+let addsecreat = createthings(); // this will return a function which will add the secreat to the secreats array
+addsecreat("heloo ji");
+addsecreat("kya haal hai"); // this will add the secreat to the secreats array
+addsecreat("arre baate chodo Luv U ji"); // this will add the secreat to the secreats array
+
+// let , const and var
+const rollno = 12937; // this is a constant variable which cannot be changed , block function je block ma hoye aj block ma access
+let subject = "maths"; // this is a block scoped variable which can be changed , Block function , "block ma hoye aj block ma access"
+subject = "english"; // this will change the value of subject
+var name = "legend"; // this is a function scoped variable which can be changed , any one can access it
