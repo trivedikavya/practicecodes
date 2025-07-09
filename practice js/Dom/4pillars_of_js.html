@@ -14,6 +14,20 @@
     font-size: 24px;
     font-weight: 50px;
 }
+     
+.bulb{
+ height: 30px;
+ width: 50px;
+ border-radius: 50%;
+ border: 2px solid #000;
+}
+.btn{
+    padding: 20px;
+    margin: 50px;
+    background-color: #dd0000;
+    color: #fff;
+    border-color: aqua;
+}
     </style>
 </head>
 <body>
@@ -23,8 +37,32 @@
     <h3 class="bola">Luba</h3>
     <button class="butt">Click Me</button>
 
+     <section class="pillargame">
+   <h1 class="Headline">Practicing Bro</h1>
+    <h2 class="leo">Change be bro </h2>
+    <h3 class="cola">Luba</h3>
+    <h3 class="bola">Luba</h3>
+    <button class="butt">Click Me</button>
+</section>
+
+<section class="project">
+    <div class="bulb"></div>
+    <button class="btn">On/off</button>
+
+</section>
+
+<section class="topic3">
+    <h1 class="leoo1">heloo </h1>
+    <h1 class="leoo">helo o o </h1>
+    <h1 class="leoo">helooo ooo ooo </h1>
+</section>
+
+<section class="code">
+    chlooo
+</section>
+
  <script src="p.js">
-    // dom is a frontedend-javascript
+   // dom is a frontedend-javascript
 // document object model
 // dom is a tree structure
 // it has 4 main pillars 
@@ -50,6 +88,47 @@ butt.addEventListener("click", function() {
     document.querySelector(".bola").innerHTML="BOBA";
     alert("Button clicked! and it is changed"); // je event listener ma click karvu hoye te click karva thi a message aavse
 });
+
+// small project :- 
+var bulb = document.querySelector(".bulb");
+var btn = document.querySelector(".btn");
+var flag = 0; // Flag vado LOgo bi chale , In that WE have to use flag = 0 or 1 o -- toh on toh -- 1 off thaye
+btn.addEventListener("click", function() {
+    if (bulb.style.backgroundColor === "yellow") {
+        bulb.style.backgroundColor = "black";
+        bulb.style.boxShadow = "none";
+    } else {
+        bulb.style.backgroundColor = "yellow";
+        bulb.style.boxShadow = "0 0 20px yellow";
+    }
+});
+
+// multiple events
+
+// selecting multiple elements at a single time 
+var e = document.querySelectorAll(".leoo"); // je class's hoye te select karvanu che
+// but this will return a NodeList, which is similar to an array
+// so we can loop through it
+e.forEach(function(i){
+    i.style.color = "red";
+})
+
+// 2 more small topics 
+//1st che getElementsByClassName
+var elements = document.getElementsByClassName("leoo"); // je class's hoye
+//2nd che getelementbyid
+var element = document.getElementById("leo"); // je id hoye
+//3rd che getElementsByTagName
+var elementsByTag = document.getElementsByTagName("p"); // je tag hoye
+
+//2nd small topivc that is 
+// innerHTML vs textContent
+// innerHTML allows you to get or set HTML content, while textContent only gets or sets the text content of an element.
+// innerHTML can include HTML tags, while textContent will strip them out and only return the text.
+var textk = document.querySelector(".topic3 .leoo1");
+textk.innerHTML = "<strong>Inner HTML</strong>"; // this will set the inner HTML
+var code = document.querySelector(".code");
+code.textContent = "<h1>D is loobooo </h1>"; // this will set the text content
  </script>   
 </body>
 </html>
