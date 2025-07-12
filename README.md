@@ -1,46 +1,68 @@
 <H2>practice pushing learning</H2>
 
-<!-- Profile Visitor Count -->
-<!-- Profile Visitor Count -->
-<img src="https://komarev.com/ghpvc/?username=kavyatrivedi-dev&style=flat-square&color=blue" alt="Profile views" />
+<!-- Profile View Count -->
+<img src="https://komarev.com/ghpvc/?username=kavyatrivedi-dev&style=flat-square&color=brightgreen" alt="profile views"/>
 
-# ✨ Hey, I’m Kavya Trivedi
+# 💫 Hey there! I'm Kavya Trivedi
 
-<!-- Typing animation illusion using monospace + blinking cursor -->
-## 🧠 `Crafting Code. Shaping Ideas. Living the Dream._`
+## 🧠 `Crafting Code. Shaping Ideas. Living the Dream._` <!-- Typing effect illusion -->
 
 ---
 
-### 🚀 What I'm Building & Exploring
+## 🚀 What Am I Upto?
 
-I'm currently diving into full-stack web dev, frontend wizardry 🧙‍♂️, AI-powered tools 🤖, and creative side-projects that spark joy ✨.  
-Exploring everything from **3D experiences**, **GenAI**, **DevTools**, to **Chrome Extensions**, **VS Code plugins**, and **Interactive UI Libraries**!
+I'm a **Frontend Dev**, a **Creative Coder**, and a **Side Project Sorcerer 🧙‍♂️** — building cool things that live on the web.  
+Currently exploring:
 
----
-
-### 📬 How to Reach Me
-
-- Got a collab idea or want to geek out over a project? Just drop me a DM!
-- ✉️ **Mail me at**: [kavyatrivedi.dev@gmail.com](mailto:kavyatrivedi.dev@gmail.com)
-
----
-
-### 🌐 Connect With Me
-
-<a href="https://linkedin.com/in/kavyatrivedi-dev" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat&logo=linkedin&logoColor=white"/></a>  
-<a href="https://twitter.com/kavyatrivedi_" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=flat&logo=twitter&logoColor=white"/></a>  
-<a href="https://kavyatrivedi.vercel.app" target="_blank"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=flat&logo=vercel&logoColor=white"/></a>  
-<a href="https://github.com/kavyatrivedi-dev" target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-%23121011.svg?style=flat&logo=github&logoColor=white"/></a>
+- 🌐 Full Stack Development  
+- 🧠 Generative AI Projects  
+- 🧩 DevTools, Extensions & VS Code Plugins  
+- 🌟 Building open-source UI/UX components  
+- 🎮 3D Web Experiences & Interactive Stuff
 
 ---
 
-### 🧰 Tech Stack I Love Working With
+## 📬 Wanna Connect?
 
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,tailwind,react,nextjs,vue,figma,threejs,python,django,vscode,github,vercel" />
+Got a cool idea, collab, or just want to geek out over tech? Let’s talk!
+
+- 📩 **Email:** [kavyatrivedi.dev@gmail.com](mailto:kavyatrivedi.dev@gmail.com)  
+- 🌐 **Portfolio:** [kavyatrivedi.vercel.app](https://kavyatrivedi.vercel.app)
 
 ---
 
-✨ Let's build something cool, unexpected, and uniquely ours. Stay curious!
+## 🌍 Socials & Links
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?logo=linkedin&logoColor=white)](https://linkedin.com/in/kavyatrivedi-dev)
+[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?logo=twitter&logoColor=white)](https://twitter.com/kavyatrivedi_)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/kavyatrivedi-dev)
+[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?logo=instagram&logoColor=white)](https://instagram.com/kavyatrivedi_)
+[![Portfolio](https://img.shields.io/badge/-Portfolio-black?logo=vercel&logoColor=white)](https://kavyatrivedi.vercel.app)
+
+---
+
+## 🧰 My Tech Toolbox
+
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,vue,figma,threejs,python,django,vscode,vercel,github" />
+</p>
+
+---
+
+## 🪄 Fun Fact
+
+> I believe every good side project starts with **"Wait, what if I build this..."**  
+> And that’s how most of my favorite things came alive 😄
+
+---
+
+### 🧩 Let's Build Magic Together
+
+If you're someone who loves to create, experiment, or just vibe with cool code & ideas —  
+**Let’s connect & make the web more fun, one pixel at a time.**
+
+---
+
 
 
 
