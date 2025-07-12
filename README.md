@@ -4,7 +4,7 @@
 <img src="https://komarev.com/ghpvc/?username=kavyatrivedi-dev&style=flat-square&color=brightgreen" alt="profile views"/>
 
 <!-- Colorful Name Heading using HTML for styling -->
-<h1 style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight:bold; font-size:2.5rem;">
+<h1 style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight:bold; font-size🈸.5rem;">
   <span style="color:#FF6B6B;">Hey</span>, 
   <span style="color:#FFD93D;">I’m</span> 
   <span style="color:#6BCB77;">Kavya</span> 
@@ -12,14 +12,13 @@
 </h1>
 
 ## 🧠 `Crafting Code. Shaping Ideas. Living the Dream._`
----
 
-## 📬 Wanna Connect?
 
-Got a cool idea, collab, or just want to geek out over tech? Let’s talk!
-
+## 📬 About Me
+- Current Workig on --
+- Currently Learming --
 - 📩 **Email:** [kavyatrivedi.dev@gmail.com](mailto:kavyatrivedi.dev@gmail.com)  
-- 🌐 **Portfolio:** [kavyatrivedi.vercel.app](https://kavyatrivedi.vercel.app)
+
 
 
 
