@@ -24,12 +24,12 @@ Exploring everything from **3D experiences**, **GenAI**, **DevTools**, to **Chro
 ---
 
 ### 🌐 Connect With Me
-
+<p>
 <a href="https://linkedin.com/in/kavyatrivedi-dev" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat&logo=linkedin&logoColor=white"/></a>  
 <a href="https://twitter.com/kavyatrivedi_" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=flat&logo=twitter&logoColor=white"/></a>  
 <a href="https://kavyatrivedi.vercel.app" target="_blank"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=flat&logo=vercel&logoColor=white"/></a>  
 <a href="https://github.com/kavyatrivedi-dev" target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-%23121011.svg?style=flat&logo=github&logoColor=white"/></a>
-
+</p>
 ---
 
 ### 🧰 Tech Stack I Love Working With
