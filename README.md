@@ -5,7 +5,7 @@
 <img src="https://komarev.com/ghpvc/?username=kavyatrivedi-dev&style=flat-square&color=brightgreen" alt="profile views"/>
 
 <!-- Colorful Name Heading using Apple-style font -->
-<h1 style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight:bold; font-size:2.5rem;">
+<h1 style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight:bold; color:red; font-size:2.5rem;">
   <span style="color:#FF6B6B;">Hey</span>, 
   <span style="color:#FFD93D;">I’m</span> 
   <span style="color:#6BCB77;">Kavya</span> 
