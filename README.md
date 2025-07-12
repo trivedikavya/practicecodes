@@ -3,9 +3,19 @@
 <!-- Profile View Count -->
 <img src="https://komarev.com/ghpvc/?username=kavyatrivedi-dev&style=flat-square&color=brightgreen" alt="profile views"/>
 
-# 💫 Hey there! I'm Kavya Trivedi
+<!-- Colorful Name Heading using HTML for styling -->
+<h1 style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight:bold; font-size:2.5rem;">
+  <span style="color:#FF6B6B;">Hey</span>, 
+  <span style="color:#FFD93D;">I’m</span> 
+  <span style="color:#6BCB77;">Kavya</span> 
+  <span style="color:#4D96FF;">Trivedi</span> 👋
+</h1>
 
-## 🧠 `Crafting Code. Shaping Ideas. Living the Dream._` <!-- Typing effect illusion -->
+<!-- Modern poetic tagline -->
+<h3 style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight:500; font-size:1.2rem; color:#444;">
+  Turning curiosity into code, <br/>
+  and side-projects into ✨ playful web magic.
+</h3>
 
 ---
 
@@ -61,7 +71,6 @@ Got a cool idea, collab, or just want to geek out over tech? Let’s talk!
 If you're someone who loves to create, experiment, or just vibe with cool code & ideas —  
 **Let’s connect & make the web more fun, one pixel at a time.**
 
----
 
 
 
