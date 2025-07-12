@@ -1,0 +1,108 @@
+<!-- IF U are learning so Alag karine vachvu Learn alag karine karvu-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="p.css">
+  <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Gilroy";
+}
+
+html , body {
+  height: 100%;
+  width: 100%;
+
+}
+body{
+    background-color: rgb(240, 174, 174);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 250px;
+    width:300px;
+    background-color: aliceblue;
+    position: relative;
+    border-radius: 10px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.box i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 5dvh;
+    color: red;
+    /* a nicha Vadi line thi centre thayu Che  */
+    transform: translate(-50%,-50%)  scale(0);
+    opacity: 0;
+    transition: transform 0.3s ease-in-out; 
+    /* transition: all 0.3s ease-in-out;  a transition all per che mein a Akha section per */
+    /* if khali transform per lagavu hoye toh tya Lkhvu pade */
+}
+  </style>
+    <title>Double click Toh heart Yaar </title>
+</head>
+<body>
+    <div class="box">
+        <img src="https://images.unsplash.com/photo-1751875313483-5b0e2b959224?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNHx8fGVufDB8fHx8fA%3D%3D" alt="" class="leo">
+        <i class="ri-heart-fill"></i>
+    </div>
+</body>
+<script src="p.js">
+  
+var box = document.querySelector(".box");
+var icon = document.querySelector(".box i");
+
+// moto nanu a Function thi - First Logic 
+// box.addEventListener("dblclick", function () {
+//     icon.style.transform = "translate(-50%,-50%) scale(1)";
+//     setTimeout(function () {
+//         icon.style.transform = "translate(-50%,-50%) scale(0)";
+//     }, 1000);
+// });
+
+/// have Jayab Bi toh thavu jyiye ne so ve use Settimeout 
+// In simple words, we can use setTimeout to delay the execution
+// 2 parameters hoye Function and time in milliseconds
+// setTimeout(function, timeInMilliseconds)
+// 2 second pachi a function call thase
+
+// setTimeout(function() {
+//     console("hello delay")
+// }, 2000);
+
+
+// a logic per apde opacity per change kariya 
+box.addEventListener("dblclick", function () {
+    icon.style.transform = "translate(-50%,-50%) scale(1)";
+    icon.style.opacity = 0.8; // Show the icon
+    setTimeout(function () {
+        
+        icon.style.opacity = 0; // Hide the icon after scaling down
+    }, 1000); // 2 seconds delay
+    setTimeout(function () { // a 2 second pachi a function call thase ( Means olo icon avse pachi 2 second pachi a function call thase )
+        icon.style.transform = "translate(-50%,-50%) scale(0)";
+        
+    }, 2000);
+});
+
+
+</script>
+</html>
