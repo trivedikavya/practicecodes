@@ -19,19 +19,6 @@
 
 ---
 
-## 🚀 What Am I Upto?
-
-I'm a **Frontend Dev**, a **Creative Coder**, and a **Side Project Sorcerer 🧙‍♂️** — building cool things that live on the web.  
-Currently exploring:
-
-- 🌐 Full Stack Development  
-- 🧠 Generative AI Projects  
-- 🧩 DevTools, Extensions & VS Code Plugins  
-- 🌟 Building open-source UI/UX components  
-- 🎮 3D Web Experiences & Interactive Stuff
-
----
-
 ## 📬 Wanna Connect?
 
 Got a cool idea, collab, or just want to geek out over tech? Let’s talk!
@@ -39,7 +26,7 @@ Got a cool idea, collab, or just want to geek out over tech? Let’s talk!
 - 📩 **Email:** [kavyatrivedi.dev@gmail.com](mailto:kavyatrivedi.dev@gmail.com)  
 - 🌐 **Portfolio:** [kavyatrivedi.vercel.app](https://kavyatrivedi.vercel.app)
 
----
+
 
 ## 🌍 Socials & Links
 
@@ -49,27 +36,13 @@ Got a cool idea, collab, or just want to geek out over tech? Let’s talk!
 [![Instagram](https://img.shields.io/badge/-Instagram-E4405F?logo=instagram&logoColor=white)](https://instagram.com/kavyatrivedi_)
 [![Portfolio](https://img.shields.io/badge/-Portfolio-black?logo=vercel&logoColor=white)](https://kavyatrivedi.vercel.app)
 
----
+
 
 ## 🧰 My Tech Toolbox
 
 <p>
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,vue,figma,threejs,python,django,vscode,vercel,github" />
 </p>
-
----
-
-## 🪄 Fun Fact
-
-> I believe every good side project starts with **"Wait, what if I build this..."**  
-> And that’s how most of my favorite things came alive 😄
-
----
-
-### 🧩 Let's Build Magic Together
-
-If you're someone who loves to create, experiment, or just vibe with cool code & ideas —  
-**Let’s connect & make the web more fun, one pixel at a time.**
 
 
 
