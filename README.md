@@ -11,12 +11,7 @@
   <span style="color:#4D96FF;">Trivedi</span> 👋
 </h1>
 
-<!-- Modern poetic tagline -->
-<h3 style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight:500; font-size:1.2rem; color:#444;">
-  Turning curiosity into code, <br/>
-  and side-projects into ✨ playful web magic.
-</h3>
-
+## 🧠 `Crafting Code. Shaping Ideas. Living the Dream._`
 ---
 
 ## 📬 Wanna Connect?
