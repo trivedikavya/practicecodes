@@ -40,8 +40,8 @@
 [![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?logo=twitter&logoColor=white)](https://twitter.com/kavyatrivedi_)  
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/kavyatrivedi-dev)  
 [![Instagram](https://img.shields.io/badge/-Instagram-E4405F?logo=instagram&logoColor=white)](https://instagram.com/kavyatrivedi_)  
-[![Portfolio](https://img.shields.io/badge/-Portfolio-black?logo=vercel&logoColor=white)](https://kavyatrivedi.vercel.app)
-</p>
+[![Portfolio](https://img.shields.io/badge/-Portfolio-black?logo=vercel&logoColor=white)](https://kavyatrivedi.vercel.app) </p>
+
 ---
 
 ## 🧰 My Tech Toolbox
