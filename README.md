@@ -1,25 +1,27 @@
-<H2>practice pushing learning</H2>
-
-<!-- Profile View Count -->
+<!-- Profile Views -->
 <img src="https://komarev.com/ghpvc/?username=kavyatrivedi-dev&style=flat-square&color=brightgreen" alt="profile views"/>
 
-<!-- Colorful Name Heading using Apple-style font -->
-<h1 style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight:bold; font-size:2.5rem;">
+<!-- Colorful Intro + GIF Below -->
+<h1 style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight:bold; font-size:2.2rem;">
   <span style="color:#FF6B6B;">Hey</span>, 
   <span style="color:#FFD93D;">I’m</span> 
   <span style="color:#6BCB77;">Kavya</span> 
   <span style="color:#4D96FF;">Trivedi</span> 👋
 </h1>
 
-<!-- Typing-style tagline -->
+<!-- Fun Dev GIF -->
+<img src="https://i.pinimg.com/originals/4f/83/50/4f83505620d2d05abd71fee5e32ed6c5.gif" width="300"/>
+
+---
+
 ## 🧠 `Crafting Code. Shaping Ideas. Living the Dream._`
 
 ---
 
 ## 📬 About Me
 
-- 🛠️ **Currently Working On:** Building dev tools, creative side-projects, and exploring full-stack & AI-powered web apps  
-- 📚 **Currently Learning:** Django, VS Code Extensions, Web Performance Optimization  
+- 🛠️ **Currently Working On:** Creative dev tools, Chrome extensions, full-stack apps  
+- 📚 **Currently Learning:** Django, performance optimization, animated UI/UX  
 - 📩 **Email:** [kavyatrivedi.dev@gmail.com](mailto:kavyatrivedi.dev@gmail.com)
 
 ---
@@ -39,10 +41,3 @@
 <p>
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,vue,figma,threejs,python,django,vscode,vercel,github" />
 </p>
-
-
-
-
-
-
-
