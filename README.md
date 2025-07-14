@@ -3,7 +3,7 @@
 
 <!-- Colorful Intro + GIF Below -->
 <p>
-<h1 style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight:bold; font-size:2.2rem;">
+<h1 style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight:bold; font-size:3.2rem;">
   <span style="color:#FF6B6B;">Hey</span>, 
   <span style="color:#FFD93D;">I’m</span> 
   <span style="color:#6BCB77;">Kavya</span> 
