@@ -8,7 +8,7 @@
   <span style="color:#FFD93D;">I’m</span> 
   <span style="color:#6BCB77;">Kavya</span> 
   <span style="color:#4D96FF;">Trivedi</span> 
- <img src="https://i.pinimg.com/736x/f4/07/5d/f4075d3fdfdf01e3162a845403fdce5f.jpg" width="30" height="30" />
+ <img src="https://i.pinimg.com/736x/3f/df/06/3fdf06164e9a9c50b4aef676faa8b3f2.jpg" width="30" height="30" />
 </h1>
  
 </p>
