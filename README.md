@@ -2,13 +2,16 @@
 <img src="https://komarev.com/ghpvc/?username=kavyatrivedi-dev&style=flat-square&color=brightgreen" alt="profile views"/>
 
 <!-- Colorful Intro + GIF Below -->
+<p>
 <h1 style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight:bold; font-size:2.2rem;">
   <span style="color:#FF6B6B;">Hey</span>, 
   <span style="color:#FFD93D;">I’m</span> 
   <span style="color:#6BCB77;">Kavya</span> 
   <span style="color:#4D96FF;">Trivedi</span> 
-  <img src="https://i.pinimg.com/originals/4f/83/50/4f83505620d2d05abd71fee5e32ed6c5.gif" width="100" />
+ 
 </h1>
+ <img src="https://i.pinimg.com/originals/4f/83/50/4f83505620d2d05abd71fee5e32ed6c5.gif" width="100" />
+</p>
 
 <!-- Fun Dev GIF -->
 
