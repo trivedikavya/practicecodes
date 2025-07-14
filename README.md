@@ -36,11 +36,11 @@
     <img src="https://img.shields.io/badge/Email-Kavya%20Trivedi-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Kavya"/>
   </a>
   
-  <a href="https://www.linkedin.com/in/kavyatrivedi-dev/" target="_blank">
+  <a href="https://www.linkedin.com/in/trivedikavya/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Message%20Kavya-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Kavya"/>
   </a>
 
-  <a href="https://twitter.com/kavyatrivedi_" target="_blank">
+  <a href="https://twitter.com/iamkavyatrivedi" target="_blank">
     <img src="https://img.shields.io/badge/Twitter-DM%20Kavya-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Kavya"/>
   </a>
 </p>
