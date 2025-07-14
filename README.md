@@ -36,13 +36,21 @@
 
 ## 🌍 Socials & Links
 <p align="left">
-  
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?logo=linkedin&logoColor=white)](https://linkedin.com/in/kavyatrivedi-dev)  
-[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?logo=twitter&logoColor=white)](https://twitter.com/kavyatrivedi_)  
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/kavyatrivedi-dev)  
-[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?logo=instagram&logoColor=white)](https://instagram.com/kavyatrivedi_)  
-[![Portfolio](https://img.shields.io/badge/-Portfolio-black?logo=vercel&logoColor=white)](https://kavyatrivedi.vercel.app) 
-
+  <a href="https://linkedin.com/in/kavyatrivedi-dev" target="_blank">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://twitter.com/kavyatrivedi_" target="_blank">
+    <img alt="Twitter" src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
+  </a>
+  <a href="https://github.com/kavyatrivedi-dev" target="_blank">
+    <img alt="GitHub" src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://instagram.com/kavyatrivedi_" target="_blank">
+    <img alt="Instagram" src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+  </a>
+  <a href="https://kavyatrivedi.vercel.app" target="_blank">
+    <img alt="Portfolio" src="https://img.shields.io/badge/-Portfolio-black?style=for-the-badge&logo=vercel&logoColor=white"/>
+  </a>
 </p>
 ---
 
