@@ -8,7 +8,7 @@
   <span style="color:#FFD93D;">I’m</span> 
   <span style="color:#6BCB77;">Kavya</span> 
   <span style="color:#4D96FF;">Trivedi</span> 
- <img src="https://i.pinimg.com/originals/4f/83/50/4f83505620d2d05abd71fee5e32ed6c5.gif" width="45" height="40" /> <!-- 30 30 for apdi image  -->
+ <img src="https://i.pinimg.com/736x/b8/20/12/b8201271d4e1595d57ad2e40b6b4c038.jpg" width="45" height="40" /> <!-- 45 40 -- iron man  . 30 30 for apdi image  -->
 </h1>
  
 </p>
