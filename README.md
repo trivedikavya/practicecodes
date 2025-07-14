@@ -15,10 +15,7 @@
 
 <!-- Fun Dev GIF -->
 
-
----
-
-## 🧠 `Crafting Code. Shaping Ideas. Living the Dream._`
+## `I build Differnce .`<img src="https://i.pinimg.com/736x/b8/20/12/b8201271d4e1595d57ad2e40b6b4c038.jpg" width="34" height="34" />
 
 ---
 
