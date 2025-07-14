@@ -31,7 +31,39 @@
 ---
 ## 📬 Let's Connect (⬅️ This Section — NEW 🔥)
 
-<a href="mailto:kavyatrivedi.dev@gmail.com?subject=Let's Connect&body=Heyy Kavya, I am"> DM ME </a> · [Message on LinkedIn](https://linkedin.com/in/kavyatrivedi-dev) · [DM on Twitter](https://twitter.com/kavyatrivedi_)
+<p align="left">
+  <a href="mailto:kavyatrivedi.dev@gmail.com?subject=Let's Connect&body=Heyy Kavya, I am..." target="_blank">
+    <img src="https://img.shields.io/badge/Email-Kavya%20Trivedi-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Kavya"/>
+  </a>
+  
+  <a href="https://www.linkedin.com/in/kavyatrivedi-dev/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Message%20Kavya-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Kavya"/>
+  </a>
+
+  <a href="https://twitter.com/kavyatrivedi_" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter-DM%20Kavya-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Kavya"/>
+  </a>
+</p>
+
+---
+
+<p align="left">
+  <img src="https://img.shields.io/badge/🌍 Socials%20&%20Links--lightgrey?style=for-the-badge" />
+</p>
+
+<p align="left">
+  <a href="https://linkedin.com/in/kavyatrivedi-dev" target="_blank">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://twitter.com/kavyatrivedi_" target="_blank">
+    <img alt="Twitter" src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
+  </a>
+  <a href="https://github.com/kavyatrivedi-dev" target="_blank">
+    <img alt="GitHub" src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://instagram.com/kavyatrivedi_" target="_blank">
+    <img alt="Instagram" src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+  </a>
 
 
 ## 🌍 Socials & Links
