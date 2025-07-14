@@ -29,6 +29,10 @@
 - 📩 **Email:** [kavyatrivedi.dev@gmail.com](mailto:kavyatrivedi.dev@gmail.com)
 
 ---
+## 📬 Let's Connect (⬅️ This Section — NEW 🔥)
+
+[Email Me](mailto:kavyatrivedi.dev@gmail.com?subject=Let's Connect&body=Heyy Kavya, I am...) · [Message on LinkedIn](https://linkedin.com/in/kavyatrivedi-dev) · [DM on Twitter](https://twitter.com/kavyatrivedi_)
+
 
 ## 🌍 Socials & Links
 
