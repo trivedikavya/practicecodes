@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+  <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "apple", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    color: white;
+}
+
+html , body {
+  height: 100%;
+  width: 100%;
+
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: black;
+}
+.ele{
+    height: 120px;
+    width: 100%;
+    border-bottom: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+.ele h1{
+    font-size: 6vw;
+    font-weight: 200px;
+    position: relative;
+    mix-blend-mode: difference;  
+    /* a image par thava de text ni uper thi */
+    z-index: 6;
+}
+.ele img{
+    height: 120px;
+    width: 100px;
+    display: flex;
+    object-fit: cover;
+    align-items: center;
+    position: absolute;
+    border-radius: 50%;
+    /* transform: translate(-50%, -50%); */
+    opacity: 0;
+    transition: all 0.3s linear;
+    
+}
+    
+  </style>
+    <link rel="stylesheet" href="p.css">
+    <title>1st logic 4rd once multiple element per moves center , move etc how U can </title>
+</head>
+<body>
+   <div id="main" >
+    <div  class="ele">   
+        <h1>leo e</h1>  
+        <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FtaW5nfGVufDB8fDB8fHww" alt="">
+    </div>
+    <div class="ele">   
+        <h1>chalooo</h1>  
+        <img src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGdhbWluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="">
+    </div>
+    <div class="ele">   
+        <h1>workinggg</h1>  
+        <img src="https://images.unsplash.com/photo-1486572788966-cfd3df1f5b42?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGdhbWluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="">
+    </div>   
+    <div class="ele">   
+        <h1>leoooe eo</h1>  
+        <img src="https://images.unsplash.com/photo-1573053986275-840ffc7cc685?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGdhbWluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="">    
+    </div>   
+</div>
+   </div>
+
+</body>
+<script >
+  var ele = document.querySelectorAll(".ele")
+
+ele.forEach(function(leo){
+   
+
+    leo.addEventListener("mouseenter",function(){
+        leo.childNodes[3].style.opacity = "1";
+    });
+    leo.addEventListener("mouseleave",function(){
+        leo.childNodes[3].style.opacity = "0";
+    });
+    
+    leo.addEventListener("mousemove",function(deo){
+        leo.childNodes[3].style.left = deo.x + "px";
+        
+    });
+     // console.log(leo.childNodes[3]); this index come then U can select that specific child node
+    
+    // console.log(leo.childNodes); ( a list return karse je je leo ni andar na child nodes ne )
+
+    // a Logice javaper change interaction jevu lagse 
+    // leo.addEventListener("mouseenter",function(){
+    //     leo.style.backgroundColor = "red";
+    // });
+    // leo.addEventListener("mouseleave",function(){
+    //     leo.style.backgroundColor = "transparent";
+    // });
+});
+</script>
+</html>
