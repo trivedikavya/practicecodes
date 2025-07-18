@@ -62,12 +62,12 @@ var leoo = "" // Initial Empty
             <img id = "${id}" src="${leo.dp}" alt="">
 
         </div>`; // ane templete litral kehvaye 
- });
+ }); // ana thi Ola 5th sathe Data Ready 
 
 var story = document.querySelector(".storypanel") // easy karva created 
 var bigstoryscreen = document.querySelector(".fullscreen") // created 
-story.innerHTML = leoo // No olo 5 vadu data Nakhi didhu 
-
+story.innerHTML = leoo // No olo 5 vadu data Nakhi didhu ( Data ne set ) 
+// Lets Go for Story screen -- Full screen  -- circle dp ( So apde Dive phela Joyiye ) 
 story.addEventListener("click" , function(d){ // a event 
     // console.log(arr[d.target.id].story) // arr -- array formate , d -- paramemeters , d.target -- property , d.target.id--- so it will Return that Whole array ( Which we created in json ) , then .story (Selected element)
     bigstoryscreen.style.display = "Block" // chnage that methode None thi Block
