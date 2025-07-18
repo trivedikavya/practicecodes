@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="p.css">
+    <title>5th main Dom project Stroy feature of ig </title>
+  <style>
+    
+  </style>
+</head>
+<body>
+   <div class="bigcard">
+    <div class="fullscreen">
+
+    </div>
+    <div class="storypanel">
+       <!-- JS THI BAKI NU AVSE LEO LEO  -->
+        
+    </div>
+   </div>
+
+</body>
+<script >
+  // have data Ahithi jase 
+// ek concept 
+// easyyyy 
+// var arr = [1,2,4,6];
+// var leo = "";
+
+//  arr.forEach(function(){
+//     leo += "Haaa merii";
+//  });
+// console.log(leo);
+
+// a appde Json Data create kariyo che 
+var arr = [
+    {
+        dp:"https://plus.unsplash.com/premium_photo-1739178656557-16b949fea186?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2FydG9vbiUyMGJveXxlbnwwfHwwfHx8MA%3D%3D", story:"https://images.unsplash.com/photo-1716648311202-39020e3b89fc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D"
+    } ,
+    {
+        dp:"https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D", story:"https://images.unsplash.com/photo-1723179341076-88ee5e122d75?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D"
+    } ,
+    {
+        dp:"https://plus.unsplash.com/premium_photo-1683140621573-233422bfc7f1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D", story:"https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmlsZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
+    } ,
+    {
+        dp:"https://images.unsplash.com/photo-1620000617482-821324eb9a14?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cHJvZmlsZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D", story:"https://images.unsplash.com/photo-1699167486047-8d76b498a515?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D"
+    } , 
+    {
+        dp:"https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmlsZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D", story:"https://images.unsplash.com/photo-1723179342888-5bc6fab80c62?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D"
+    }
+];
+var leoo = "" // Initial Empty 
+// circle ma Image ahithi avse che 
+ arr.forEach(function(leo , id){ // key and value 
+    leoo += ` <div class="story">
+            <img id = "${id}" src="${leo.dp}" alt="">
+
+        </div>`; // ane templete litral kehvaye 
+ });
+
+var story = document.querySelector(".storypanel") // easy karva created 
+var bigstoryscreen = document.querySelector(".fullscreen") // created 
+story.innerHTML = leoo // No olo 5 vadu data Nakhi didhu 
+
+story.addEventListener("click" , function(d){ // a event 
+    // console.log(arr[d.target.id].story) // arr -- array formate , d -- paramemeters , d.target -- property , d.target.id--- so it will Return that Whole array ( Which we created in json ) , then .story (Selected element)
+    bigstoryscreen.style.display = "Block" // chnage that methode None thi Block
+    bigstoryscreen.style.backgroundImage = `url(${arr[d.target.id].story})` // bg img avse Ani uper to a avse 
+    setTimeout(function(){ // ane 3 sec matej khelse Full screen vadu 
+        bigstoryscreen.style.display = "none" // event toh event handler -- event chalu che have -- toh have a Event ne katoh a Event ma su changes karva te Settimeout ma a event per su karvano ..? -- Like event chlu pachi su toh pachi settimeout ane 3 sec pachi close
+     } , 3000)
+})
+</script>
+</html>
+
+<!-- <div class="story">
+            <img src="https://plus.unsplash.com/premium_photo-1739178656557-16b949fea186?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2FydG9vbiUyMGJveXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+
+        </div>
+        <div class="story">
+            <img src="https://plus.unsplash.com/premium_photo-1739178656557-16b949fea186?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2FydG9vbiUyMGJveXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+
+        </div>
+        <div class="story">
+            <img src="https://plus.unsplash.com/premium_photo-1739178656557-16b949fea186?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2FydG9vbiUyMGJveXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+
+        </div>
+        <div class="story">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmlsZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D" alt="">
+
+        </div> -->
