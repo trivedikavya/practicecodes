@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="animate.css">
+    <title>animate anithing series - Css That by Css things </title>
+  <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+html , body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+    padding: 30px;
+}
+
+.box{
+    height: 190px;
+    width: 250px;
+    background-color: maroon;
+    
+    border: 3px solid white;
+    border-radius: 20px;
+    /*have apply kari rite thaye a Joyile */
+    position: absolute; /*a Mukvu pade ( Not Imp ) ( But necassary ) */
+    /* change the name as per neccessary in learning phase i created 2 -3 animations So change and see */
+    animation-name: imove; /* ( Nicha Keyframe means Animation create kariya che ) a name je Animation te create kariyu hoye anu naam*/
+    animation-duration: 3s; /* ketla time mate animation karvanu */
+    animation-delay: 2s; /*atla Time pachi animation karje Note By default animation ek aj var thaye */ 
+    animation-fill-mode: forwards; /*je last rahiyu aj rehse and tya thi Kyaye pn nahi jaye   ,Backward by deafult*/
+    animation-iteration-count: 2; /*kitni bar chalega ..? inifinit bi hoye */
+    animation-direction: reverse; /*normal -- By default , reverse - so Ullt a , alternate - so ek bar sidha then utlta */
+    animation-timing-function: ease-in;/*speed Uper nich - ano Time setup , like ease-in so start slow & end fast* , ease-out start slow & last end fast , linear - speed maintain rakhe  , ease-in-out Bav start slow end slow , vachcha Nu fast */
+}
+ /* animation includes To things 
+ - animation 
+ - application of animation   , eg ( Khana Banana and khana khaana
+ - it can be Done through Keyframe */
+/*Animation create process 1st animation */
+/* from and to are like initial and Final means abhi yaha hai phir kaha jana hai  */
+ @keyframes imove { /*identier means tya Name Lakhvanu ( Imove animation nu name che */
+    /*initial set up */
+    from{
+        left: 0;
+        rotate: 0;
+        top: 0%;
+        background-color: maroon;
+    }
+    /* pachi kayu setup karvu che a  */
+    to{
+        left: 70%;
+        top: 45%;
+        rotate: 360deg;
+        background-color: rgb(80, 241, 5);
+    }
+ }
+
+ /*2nd use For in Different - 0-100 in Different Cuts Just chaneg name to apply*/
+ /* 2nd animation chea From ani to ni vachha su ..?  but 0 - 100 hoye che  craeted By my own*/
+ @keyframes twomove {
+    0%{
+         left: 0%;
+         top: 0%;
+         background-color: maroon;
+        
+    }
+    25%{
+         left: 25%;
+         top: 0%;
+         background-color: #292525;
+    }
+    50%{
+        left: 25%;
+        top: 45%;
+        background-color: #f0f0f0ff;
+    }
+    100%{
+        left: 0%;
+        top: 45%;
+        background-color: rgb(42, 0, 228);
+    }
+    0%{
+         left: 0%;
+         top: 0%;
+         background-color: maroon;
+        
+    }
+ }
+
+  </style>
+</head>
+<body>
+    
+    <!-- animations are the part of attraction towards website  -->
+    
+     <div class="box">
+
+     </div>
+
+
+
+</div>
+</body>
+</html>
