@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>async 2 projects </title>
+</head>
+<body>
+    <h1>Legend </h1>
+    <button id="ruk">stop</button>
+    <script >
+      //DAY --1
+//PART --1 
+// function alag reference Thi Javu chu leo
+//CODE
+// const leo = function(){
+//     console.log("Helooeoe");
+//     document.querySelector('h1').innerHTML = "Leo changed ";
+// }
+// const changeo = setTimeout(leo , 5000); // Leo Lakhiyu Atle Reference apiyo 
+// and If hu leo() so Function run that That Time  thayi Jaye // Run toh thase 2 sec Pachi 
+
+// Lets Change The H1 
+
+// Now if We want to Stop that settimeout Event  so What We will do .? here is Cleartimeout to stop it 
+//CODE
+ // clearInterval(changeo) // Have ane Reference appvo pade so (So as U can see that leo --settimout Is Stoped due to cleartimeout )
+
+ // PART -- 2
+ // Pn have Matlab nahi bhai Ano atiyare use karvano right ..? toh create tari ... karva Kariyo .?
+ // and Here we make like on click That Button te Event exicute Na Thaye When -- click -- so event stop 
+
+const changeju = setTimeout(() => {
+    document.querySelector('h1').innerHTML = " Hello Duniya "
+}, 5000);
+// Now If U want to Remove that Event Onclick so 
+
+document.querySelector('#ruk').addEventListener( 'click', function(){
+    clearTimeout(changeju); // Anathi a settimeout vadi Event stop 
+    console.log(" Mein age nahi javunga Bass ") // for refernce ke done
+})
+
+    </script>
+</body>
+</html>
