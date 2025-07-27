@@ -1,1 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="animate.css">
+    <title>DAY- 3 animate anithing series - Css That by Css things </title>
+    <!-- Cdn = content delivery network -->
+</head>
+  <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+html , body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+    padding: 30px;
+    color: white;
+}
 
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    
+}
+/*maken a Circle Part -2 make Day -2 On GSAP*/
+.circle{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: chartreuse;
+}
+
+.boxe1 {
+    height: 100px;
+    width: 100px;
+    background-color: #fffb06;
+    border-radius: 65x;
+    margin: 10px;
+}
+.boxe2 {
+height: 100px;
+    width: 100px;
+    background-color: #096e69;
+    border-radius: 65x;
+    margin: 10px;
+}
+.boxe3{
+height: 100px;
+    width: 100px;
+    background-color: #9fe718;
+    border-radius: 65x;
+    margin: 10px;
+}
+  </style>
+<body>
+ <!-- GSAP Js librabry Provides Moving Animations  -->
+  <div class="learn-part-1">
+  <div class="box"></div>
+  <h1>KAVYA</h1>
+  <h1>LEO</h1>
+  <h1>LEGEND</h1>
+  </div>
+
+  <!-- part 2 che a  -->
+  <div class="circle">
+
+  </div>
+
+  <!-- part -3 che a  -->
+  <div class="boxe1"></div>
+  <div class="boxe2"></div>
+  <div class="boxe3"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+  <!-- alway script file ke Uper Only  -->
+<script src="animate.js">
+  // console.log(gsap) To verify 
+
+// Now as in animations We had Done WITH keyframes Right So now we will Do that In GSAP ( Final And Inital or vice versa In this also )
+// gsap.from // final to inital
+// gsap.to // inital to final 
+
+// basic way to select and use 
+gsap.to('.box', { // her u can Write CSS prop also and GSAP prop also 
+    
+}) // its is Sytax Between { } this we will Add properties and from pachi apede element select kariyu 
+// If to replace from so te Backward animation thase
+gsap.to('.box', { // her u can Write CSS prop also and GSAP prop also 
+    x:300 , // x axis per animatat ethsyi 300 move karse 
+    duration:2 , // it will take 2 seconfds to move 
+    delay: 2 , // Thodi vaar pachi animation start thase
+    backgroundColor: 'yellow', // background color change karse Note that Cameal case and String  Color
+    rotate:360, // so ye rotate karke animate karega 
+    borderRadius: '50%' , // border radius change karega tya pohochta circle thayi jase 
+    scale: 0.5 // scale down karega yani ki 50% size reduce karega llike ano scale nano ke moto karva kaam ave 
+}) // its is Sytax Between { } this we will Add properties and from pachi apede element select kariyu 
+
+// one more ability 
+gsap.from('h1',{ // h1 Mukavathi Direact all h1 tags Target thayi jaye 
+x:200, // x axis per animatat ethsyi 200 move karse
+duration: 2, // it will take 2 seconfds to move
+opacity:0 , // opacity 0 thi 1 jase ( Because From so final thi initial )
+delay: 2, // Thodi vaar pachi animation start thase
+stagger:1 // stagger means as we selected all H1 through  h1  have elemment ek ek karine avse ( As stagger is 1)
+})
+
+// Day-2 for GSAP
+gsap.to('.circle',{
+    x:400, // defalut Hoye Toh px hoye
+    duration: 2,
+    delay: 2 , borderRadius: '20px' , // but if u will Do % Vwh or etc , so Units Joyiye toh '' a lagavu pade or ""
+    scale: 0.2 , 
+    repeat: 2 ,// reapeat It 2 times means 1 time By default and 2 more times Due To repeat tag if Infinity So -1 
+    yoyo:true // yoyo means it will go back to initial position after completing the animation tappa khake vapish
+})
+
+// One more concept timeline of gsap part - 3 
+// we will Talk about time line means 
+// if 3 box are In one it we want that They come one by one means ek complete Thaye pachi Bijo run THaey Like that So to make that we use Timeline
+// timeline help to work things synchronously means ek pachi ek 
+
+var timeu = gsap.timeline()
+
+timeu.to('.boxe1', {
+    x: 300 , 
+    rotate: 360 ,
+    duration: 2 ,
+})
+
+ 
+timeu.to('.boxe2', {
+    x: 300 , 
+    rotate: - 360 , 
+    duration: 2 ,
+    border: '2px solid red'
+}) 
+
+timeu.to('.boxe3', {
+    x: 300 , 
+    rotate: 180 , 
+    duration: 2
+})
+</script>
+</body>
+</html>
