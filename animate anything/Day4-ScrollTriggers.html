@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="animate.css">
+    <title>DAY- 4 animate anithing series - Scroll triger By kavya Trivedi </title>
+    <!-- Cdn = content delivery network -->
+</head>
+  <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+html , body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+
+    color: white;
+}
+
+.page1{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(4, 50, 202);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page3{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(43, 3, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 30px;
+}
+  </style>
+<body>
+ <!-- GSAP Js librabry Provides Moving Animations  -->
+  <!-- GSAP  scroll triger -->
+   <div class="page1">
+    <div class="box"></div>
+   </div>
+   <div class="page2">
+    <div class="box"></div>
+   </div>
+   <div class="page3">
+    <div class="box"></div>
+   </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+  <!-- alway script file ke Uper Only  -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <!-- so Order to add files Is GSAP -- Scroll to Trigger -- js file  -->
+<script src="animate.js">
+  // as we added scroll triger in File so Let so let sDo scroll trigger 
+gsap.to('.page1 .box',{
+    rotate:180 ,
+    scale:0.5 ,
+    duration:2,
+
+})
+gsap.to('.page2 .box',{
+    rotate:380 ,
+    scale:1.5 ,
+    duration:2,
+    borderRadius:"0%", // Deep so Come here 
+    scrollTrigger: {// Normal Direact use Toh 
+        triger: ".page2 .box", // Normal Direact use Toh
+        scroller: "body", // 99% Bodyj ave if koy specific region ma scroll animation toh tya use kariye apde 
+     scrub:2 , // jem jem scroll thaye am am animation that and Udhu bi jaye a  ( True -- Toh rough thodu start , 1 - toh smooth , 2 - toh aju thodu smooth )
+     start: "top 50%", // atla Specific start karvu che toh cAN dO THAT sO END: "50%" like that Also ( Ama Ave toh start thaye like that )
+     markers: true, // Its For our help Show markers for debugging show when thye ke kyare a Run t
+     pin: true, // Toh pin karvu che toh pin true karvu pade ( Means ani ander a elemnt pin taayi jase means screen move thaye , animation thaye But element screen ni uper ayi animation perform kare ) X Y change kar atle khaber pade 
+     
+    }
+})
+gsap.to('.page3 .box',{
+    rotate:380 ,
+    scale:.5 ,
+    duration:2,
+    x:89 ,
+    y:89 , // uper uper 
+    scrollTrigger: ".page3 .box", // Normal Direact use Toh
+})
+</script>
+</body>
+</html>
