@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="animate.css">
+<!--   a bi add karvi pade Tyathij Below mention kya thi  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <title>DAY- 5 animate anithing series - Locomotive By kavya Trivedi </title>
+  <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+html , body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+
+    color: white;
+}
+
+.page1{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+   
+}
+.page2{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(4, 50, 202);
+    
+}
+.page3{
+    width: 100%; /*Use vh in height View port nam acoording , And rander Bi toh thaye */
+    height: 100vh;
+    background-color: rgb(43, 3, 19);
+  
+}
+.box{
+    width: 100px;
+   height: 100vh;
+    background-color: red;
+    
+}
+  </style>
+    <!-- Cdn = content delivery network -->
+</head>
+<body>
+ <!-- Locomotive js Scrolling ma next level javu hoye Toh   -->
+  <!-- note the when u are using locomotive don't give hight wedth ti wrapper of your page -->
+   <!-- main is wrapper here  -->
+   <div id="main"> 
+    <div class="page1"></div> 
+    <div class="page2"></div>
+    <div class="page3"></div>
+    
+   </div>
+  
+
+<!-- Go to google serach Locomotive then click On locomotive scroll then Link copy then from here https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/  -->
+ 
+   <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+ 
+<script src="animate.js">
+  // setup done now Under useing it s 
+var leo = new LocationtiveScroll({
+
+}) // ye basic Sytax hasi Use karne ka Now ( Ani ander Tame badhu lako )
+// so 
+// main is wrapper of all pages so 
+// have element declare done so 
+// locomotive lagchuka hai 
+var leo = new LocationtiveScroll({ // new constructor function che atle 
+el: document.querySelector("#main") , // element kayo select toh wrapper 
+smooth:true, // smooth scrolling
+})
+
+// srolling effect increase kari nakhe so it done By Locomotive 
+// more learning in that here is https://github.com/locomotivemtl/locomotive-scroll
+// small library small works Easy Smooth scrolling mate che a bas
+</script>
+</body>
+</html>
