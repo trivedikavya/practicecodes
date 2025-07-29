@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>async 2 projects</title>
+</head>
+<body>
+    <h1>Legend HAA Mu mein </h1>
+    <button id="chal">start</button>
+    <button id="ruk">stop</button>
+    <script src="project.js"> 
+      // Day 2 part 1
+// Basic Syntax 
+//CODE
+// setInterval(function(){
+//     console.log("Setinterval I started");
+// }, 5000)
+
+//Date.now() is used to get the current time in milliseconds
+
+// 2nd paramerter as we said It is a method to write
+//CODE
+// function created 
+// const funcke = function(data){ // data only when u  are using 3rd parameter 
+//     console.log("Setinterval I started"+data);
+//     console.log(Date.now()); // current time in millisecnds
+// }
+// now refernce time
+// setInterval(funcke, 5000);
+// 3rd parameter Bi hoye ani ander U can Pass Str or can say Variable 
+// const Parere =  setInterval(funcke, 5000 , "hello uniya");
+
+//part 2 
+// start thayi gayu Have stop kayi rite Kari su 
+// so It have clear interval
+//CODE -- as we said Reference apii ne Stop thaye as like Settimeout
+// clearInterval(Parere);
+
+// Assigment time - Part 3 
+// start
+// Main CODE
+// let leo; // Double Functions Declare karva hoye Toh first Varible Then Function Under declaare Karvanu 
+// //and aj function name clear Intervat Ma pm use karvanu so It run 
+
+// document.querySelector("#chal").addEventListener("click", function (){
+//     leo = setInterval(function() { // main setinterval function declared 
+//     console.log("Hello Leo"); // small data 
+//      console.log(Date.now()); // small data
+//  } , 5000);
+// })
+    
+// document.querySelector("#ruk").addEventListener("click", function() {
+//     // data only when u  are using 3rd parameter 
+//     clearInterval(leo); // clar interval With refernce of Leo which is Setinterval function 
+//     console.log(" Mein ruka ");
+
+// }) 
+
+// It will give the latest Date 
+
+//  console.log(new Date()); // 👉 Shows full date info 
+
+// Have avse work 
+
+// Project - 1 // assigment 
+// start toh Bg chANGE color THAYU GAYE AND STOP KARIYE TO STOp 
+// problem gentrea a Rando color 
+// math.random()// anathi random value Genrate Thaye But 0 - 1 ma 
+// math.random() *16 // so 16 ma value Genrate thaye0 - 15 but points ma so 
+// math.floor(math.random() * 16) // so 0 - 15 ma value Genrate thaye Perfactvalue 
+// Random color mat e
+// CODE 
+// main function due to this Hexa Color code ave che 
+const randomcolor = function(){
+    const hex = "0123456789ABCDEF"; // Range che color in hexa ma  Hexadecimal value ( Hexadecimal is a base-16 number system)
+    let color = "#"; // start with # for hex color code
+    for(let i = 0; i < 6; i++){ // 6 times
+        // += becasue Value append akarvani che ama 6 var 
+        //kya thi Hex mathi 
+        // index number 0 to 15 ma value Genrate thaye
+        // and append the corresponding hex character
+        color += hex[Math.floor(Math.random() * 16)]; // Generate a random index and append the corresponding hex character
+    }
+    return color; // return the generated color
+}
+
+// Rnadome color ma Nam e store ch e
+let coloro; // Declare a variable to hold the interval ID golobal
+const changebg = function() { // event lister mate 
+// Function to change the background color
+console.log("Changing background color...");
+coloro = setInterval(function(){
+     // Log to console for debugging
+        document.body.style.backgroundColor = randomcolor(); // Change the background color of the body to a random color
+
+} , 1000)
+}
+document.querySelector("#chal").addEventListener("click", changebg) 
+
+const stopbg = function() { // stop event listener function mate 
+    // Function to stop changing the background color
+    clearInterval(coloro); // clear intervl function stop na kare a interval Stop kare so anu naam apvanu ane
+    console.log("Background color change stopped");
+}
+document.querySelector("#ruk").addEventListener("click", stopbg) // Add event listener to the stop button
+    </script>   
+</body>
+</html>
