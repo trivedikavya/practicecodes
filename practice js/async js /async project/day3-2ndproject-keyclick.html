@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+  <style> 
+     body{
+    background-color: black;
+    color:azure;
+ }
+  </style>
+    <title>2nd project of - async js  press a Key and we get value of that Key </title>
+</head>
+<body>
+    <div class="insert">
+        <h1>Press Key can see magic broo</h1>
+    </div>
+    <script src="project.js">
+      var leo = document.querySelector('.insert h1');
+
+//  new event listener In which it detele which key u presed 
+window.addEventListener("keydown" , (e)=>{ // key window per becuse apde akkha Page per lagavanu che and leo select alte kariyu che because Apde ani jagiyaye Output apisu 
+    leo.innerHTML = ` 
+    <div>
+     <table>
+        <tr>
+            <th>key</th>
+            <th>keycode</th>
+            <th>code</th>
+        </tr>
+        <tr>
+            <td>${e.key === " " ? "Space" : e.key}</td>
+            <td>${e.keyCode}</td>
+            <td>${e.code}</td>
+        </tr>
+        </table>
+        <div>
+    `
+}) // a je vachche laikhu che a a if elese condition aj che but in differnnt way ( pheli condition -- then word ha toh , nahi toh e.key )
+    </script>
+</body>
+</html>
