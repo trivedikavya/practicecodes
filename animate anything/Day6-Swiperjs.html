@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 7 - Swiper js  </title>
+     <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/> 
+<!-- css ki CDN -->
+    <link rel="stylesheet" href="animate.css">
+  <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+html , body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+
+    color: white;
+}
+/*Css page for this */ 
+/* .swiper{
+    height: 100px;
+    width: 50px;
+} */
+
+/* .my-swiper-container{
+    height: 100px;
+    width: 40px;
+} */
+
+.my-swiper-container {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    
+}
+.my-wrapper{
+    height: 100px;
+    background-color: blue;
+    display: flex;
+}
+.my-slide{
+    height: 120px;
+    width: 70px;
+}
+  </style>
+</head> 
+<body>
+    <!-- here is the Link to learn -->
+     <!-- It has some  props That can U can see in https://swiperjs.com/get-started#use-swiper-from-cdn -- Like in DEMO U can see All different Sliders  -->
+    <!-- simple - and by default way that U have to use When U want to make it simple  -->
+     <!-- it is class relies on these class names , so This clss Only with js  -->
+     <!-- <div class="swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">Slide 1</div>
+    <div class="swiper-slide">Slide 2</div>
+  </div>
+</div> -->
+
+
+
+
+     
+
+    <!-- If u go Cutamize So use This and 2nd way -->
+  <!-- <div class="my-swiper-container">
+  <div class="my-wrapper">
+    <div class="my-slide">Slide 1</div>
+    <div class="my-slide">Slide 2</div>
+  </div>
+</div> -->
+
+    <!-- SWIPER JS avi rite add karaye ane mein crome ma save kari nakhyo che U can see there   -->
+   
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="animate.js">
+      // have swiper Js apply karva u have to go like this 
+//Default CODE
+// const swiper = new Swiper('.swiper')
+// if u go by default so 
+// If U use Custome Class so here it is
+
+// const swiper = new Swiper('.my-swiper-container', {
+//   wrapperClass: 'my-wrapper',
+//   slideClass: 'my-slide',
+// });
+
+// leran it it is easy Just Watch and Go 
+const swiper = new Swiper('.my-swiper-container', {
+  wrapperClass: 'my-wrapper',
+  slideClass: 'my-slide',
+});
+
+// ama amuk  props bi che
+// like
+Autoplay , loop 
+
+    </script>
+</body>
+</html>
