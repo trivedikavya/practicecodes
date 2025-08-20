@@ -1,0 +1,135 @@
+JWT - json web token 
+This Token are those tokens Used for Authatication and Authorisation Genrally and mainly 
+
+3 parts JWT token has 
+ihgoygy.vufuyp.jtftfuy
+1st -- Header -- ( Kayo algo ( for encription ) , & its type ) -- a header thi khaber padse 
+2nd -- Payload -- Databse ( ID(unique-data) + DATA(Database) + iat (issued at) can Expire date Bi hoye )  
+3rd -- signature -- unique-id , unique-key of data
+
+- Authantication -- means Register Login verifiy ( Login hoye te verifiy karase)
+- Authorisation -- means Resorces nu acces Hoye -- eg user -- Dasboard , But admin -- has access to Dasboard , admin panel both 
+
+-- a token ( Localstoreage ma store thaye ) , ( cokkies for ma use store karave )
+-- refresh Token -- 401 - this Token are those Token which tokens are those token through which ( user get restore get his acess data expire thaye Toh bi a restore thayi Jaye ) 
+--) user( 2 token (expire token , Refresh token) )  - server(data token ( expire Token Mokale(access Req per) )  - refresh token ( Je expirey token expire Thayi jaye toh bi 
+
+-- JWT or Session store 
+jwt -- tokens DEALS WITH server and they get Data 
+Session -- this deals With Database 
+
+
+PURE ENGLISH 
+🔑 JWT (JSON Web Token) – Beginner-Friendly Explanation
+
+JWTs are mainly used for Authentication (who you are) and Authorization (what you can access).
+They’re lightweight, stateless tokens that the server gives to the client after login.
+
+📦 Structure of JWT
+
+A JWT has 3 parts separated by .:
+
+xxxxx.yyyyy.zzzzz
+
+
+Header
+
+Contains info about the type of token (JWT) and signing algorithm (e.g., HS256).
+
+{
+  "alg": "HS256",
+  "typ": "JWT"
+}
+
+
+Payload (Claims)
+
+Stores data about the user (not the full database, just important fields).
+
+Common claims:
+
+sub: user id (unique identifier)
+
+iat: issued at
+
+exp: expiry time
+
+custom fields: role, email, etc.
+
+{
+  "sub": "12345",
+  "name": "Kavya",
+  "role": "admin",
+  "iat": 1734724893,
+  "exp": 1734728493
+}
+
+
+Signature
+
+Created using:
+
+HMACSHA256(
+  base64UrlEncode(header) + "." + base64UrlEncode(payload), secretKey
+)
+
+
+Ensures the token hasn’t been tampered with.
+
+The secret key is only known to the server.
+
+🔐 Authentication vs Authorization
+
+Authentication → Login/Register (Who are you?).
+
+Authorization → After login, check if you have permission (What can you do?).
+
+Example:
+
+User logs in → server gives a JWT.
+
+User requests /dashboard → JWT is valid, access granted.
+
+User requests /admin-panel → JWT checked → if role = admin, allow; else deny.
+
+🏪 Storage
+
+LocalStorage / SessionStorage → Easier but less secure.
+
+HTTP-only cookies → More secure (can’t be read by JS).
+
+🔄 Refresh Tokens
+
+Access tokens = short-lived (e.g., 15 mins).
+
+Refresh tokens = long-lived (e.g., 7 days).
+
+If access token expires → client sends refresh token → server issues new access token.
+
+Protects against someone stealing your access token.
+
+🆚 JWT vs Session
+
+JWT:
+
+Server doesn’t store session.
+
+Token itself carries data (stateless).
+
+Scales better for microservices / APIs.
+
+Sessions:
+
+Server stores user session in memory/db.
+
+Client stores only session id (cookie).
+
+More traditional, secure but less scalable.
+
+✅ So your explanation is mostly right, but:
+
+Payload doesn’t store the full database, just claims/metadata.
+
+Signature uses the server’s secret key, not a "unique id of data".
+
+Refresh token flow = server reissues tokens, not automatic restore.
