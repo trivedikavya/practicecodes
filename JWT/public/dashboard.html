@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+</head>
+<body>
+  <h2>User Dashboard</h2>
+  <p id="content"></p>
+  <button onclick="goAdmin()">Go to Admin Panel</button>
+
+  <script>
+    async function loadDashboard() {
+      const token = localStorage.getItem("token");
+
+      const res = await fetch("/dashboard", {
+        headers: { Authorization: "Bearer " + token }
+      });
+      const data = await res.json();
+
+      document.getElementById("content").innerText = data.message;
+    }
+
+    function goAdmin() {
+      window.location.href = "admin.html";
+    }
+
+    loadDashboard();
+  </script>
+</body>
+</html>
