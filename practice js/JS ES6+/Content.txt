@@ -1,0 +1,12 @@
+Topics 
+1 let and const -- Done [Half Under Phela Bi kariyu Che]
+2 arrow func -- Done
+3 template literals -- done
+4 default parameters -- done
+5 rest & spread -- done
+6 destructing -- done
+7 classes -- 
+8 promises -- done
+9 modules - react Vadu Import And all Things -- done 
+10 async await -- done
+11 try and catch -- 
