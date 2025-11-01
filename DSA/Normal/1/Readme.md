@@ -1,0 +1,1 @@
+You have ₹15 and go to a shop where each chocolate costs ₹1. The shopkeeper also offers a deal: you can exchange 3 empty chocolate wrappers for 1 additional chocolate. So, how many chocolates can you eat at maximum?
