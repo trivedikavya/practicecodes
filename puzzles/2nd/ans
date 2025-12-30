@@ -1,0 +1,12 @@
+Turn Switch A ON for a few minutes
+Turn it OFF
+Turn Switch B ON
+Enter the room
+
+Interpret:
+
+ON bulb → Switch B
+
+Warm bulb (off) → Switch A
+
+Cold bulb (off) → Switch C
