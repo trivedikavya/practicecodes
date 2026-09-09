@@ -491,6 +491,152 @@ You can say:
 
 That's the exact progression you want for an interview: **Brute Force → Why it's inefficient → Optimization → Complexity.**
 
+# Q1. Largest Element in an Array
+
+## Question
+
+**Find the largest element in an array.**
+
+---
+
+## How Will You Solve It?
+
+### Brute Force Approach
+
+**Sort the array → the last element will be the largest.**
+
+### Optimal Approach
+
+**Take the first element as the largest → compare every other element → update the largest whenever a bigger element is found.**
+
+---
+
+# 1. Brute Force Approach
+
+## Logic
+
+```text
+Sort the array
+      ↓
+Largest element comes to the end
+      ↓
+Return the last element
+```
+
+### Code
+
+```javascript
+function findLargest(arr) {
+
+    // Main part: Sort the array in ascending numerical order
+    // (a, b) are two elements being compared
+    // a - b makes JavaScript sort numbers correctly
+    arr.sort((a, b) => a - b);
+
+    // Main part: arr.length gives the total number of elements
+    // length - 1 gives the index of the last element
+    // The last element is the largest after sorting
+    return arr[arr.length - 1];
+}
+
+
+// Input
+let arr = [10, 5, 25, 8, 15];
+
+// Output
+console.log(findLargest(arr)); // 25
+```
+
+## Complexity
+
+```text
+Time:  O(n log n)
+Space: O(1)*
+```
+
+---
+
+# 2. Optimal Approach
+
+## Logic
+
+```text
+Take the first element as largest
+              ↓
+Compare every other element
+              ↓
+If current element is bigger
+              ↓
+Update largest
+              ↓
+Return largest
+```
+
+### Code
+
+```javascript
+function findLargest(arr) {
+
+    // Main part: Assume the first element is the largest
+    let largest = arr[0];
+
+    // Main part: Start from the second element
+    // and check every element until the array ends
+    for (let i = 1; i < arr.length; i++) {
+
+        // Main part: Compare the current element
+        // with the largest element found so far
+        if (arr[i] > largest) {
+
+            // Main part: If current element is bigger,
+            // update largest with the current element
+            largest = arr[i];
+        }
+    }
+
+    // Main part: After checking the complete array,
+    // largest contains the largest element
+    return largest;
+}
+
+
+// Input
+let arr = [10, 5, 25, 8, 15];
+
+// Output
+console.log(findLargest(arr)); // 25
+```
+
+## Complexity
+
+```text
+Time:  O(n)
+Space: O(1)
+```
+
+---
+
+# 🌍 Where Can This Approach Be Used?
+
+The **Optimal Approach — Compare and Update** is useful whenever a system needs to scan multiple values and find the maximum value.
+
+* **Load Balancing** → Find the server with the highest available capacity.
+* **Server Selection** → Select the server with the most free resources.
+* **Leader Selection** → Find the highest-priority candidate.
+* **Rate Limiting** → Detect the highest traffic/request spike.
+* **Leaderboards** → Find the player with the highest score.
+* **Analytics** → Find the maximum value from collected metrics.
+* **Monitoring Systems** → Detect the highest CPU, memory, traffic, or resource usage.
+* **Resource Management** → Find the resource with the highest available capacity.
+* **Performance Monitoring** → Find the highest/peak value from system metrics.
+
+### General Condition
+
+Use this pattern when:
+
+> **You have multiple values and need to find the maximum without needing to sort all the values.**
+
+
 
 
 
