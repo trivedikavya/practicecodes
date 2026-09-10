@@ -292,23 +292,8 @@ Absolutely! Let's solve **“Find the Largest Element in an Array”** in JavaSc
 
 ---
 
-# 🟢 Question
 
-### Find the Largest Element in an Array
-
-Given an array of integers, find and return the **largest element** in the array.
-
-### Example
-
-```text
-Input:  [10, 5, 25, 8, 15]
-
-Output: 25
-```
-
----
-
-# 1️⃣ Brute Force Approach — Sort the Array
+#  Brute Force Approach — Sort the Array
 
 ### Idea
 
