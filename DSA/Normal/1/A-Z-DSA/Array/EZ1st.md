@@ -459,7 +459,7 @@ console.log(findLargest(arr));
 
 ---
 
-# 🔥 Brute Force vs Optimal
+#  Brute Force vs Optimal
 
 | Approach        | Logic                    |         Time |      Space |
 | --------------- | ------------------------ | -----------: | ---------: |
@@ -601,7 +601,7 @@ Space: O(1)
 
 ---
 
-# 🌍 Where Can This Approach Be Used?
+#  Where Can This Approach Be Used?
 
 The **Optimal Approach — Compare and Update** is useful whenever a system needs to scan multiple values and find the maximum value.
 
@@ -615,11 +615,6 @@ The **Optimal Approach — Compare and Update** is useful whenever a system need
 * **Resource Management** → Find the resource with the highest available capacity.
 * **Performance Monitoring** → Find the highest/peak value from system metrics.
 
-### General Condition
-
-Use this pattern when:
-
-> **You have multiple values and need to find the maximum without needing to sort all the values.**
 
 
 
