@@ -1,6 +1,6 @@
 # Left Rotate an Array by One Place
 
-## 📌 Question
+##  Question
 
 **Given an array, left rotate the array by one place.**
 
@@ -28,7 +28,7 @@ After **left rotating the array by one place**, the first element `1` moves to t
 
 ---
 
-## 💡 What Does Left Rotation Mean?
+## What Does Left Rotation Mean?
 
 In a **left rotation by one place**:
 
@@ -52,7 +52,7 @@ Array:  2  3  4  5  1
 
 ---
 
-## 🧠 Logic / Approach
+##  Logic / Approach
 
 The main idea is to shift every element one position towards the left.
 
@@ -154,7 +154,7 @@ Therefore, the final answer is:
 
 ---
 
-## 💻 JavaScript Implementation
+##  JavaScript Implementation
 
 ```javascript
 function leftRotate(arr, n) {
@@ -192,7 +192,7 @@ console.log(result);
 
 ---
 
-## 🔍 How the Code Works
+##  How the Code Works
 
 The important part of the solution is:
 
@@ -238,7 +238,7 @@ So the overall transformation is:
 
 ---
 
-## ⏱️ Complexity
+##  Complexity
 
 ### Time Complexity
 
@@ -258,7 +258,7 @@ Only one extra variable, `temp`, is used. The rotation is performed **in-place**
 
 ---
 
-## 📌 Key Point to Remember
+##  Key Point to Remember
 
 For **left rotation by one place**:
 
