@@ -95,8 +95,3 @@ main();
 * **Time Complexity:** $\mathcal{O}(N \times M)$ (where $N$ is the expected range and $M$ is the size of the given array). In the worst case, checking every expected number against the array takes quadratic time.
 * **Space Complexity:** $\mathcal{O}(1)$ auxiliary space because we only use two loop counters (`i`, `j`) and a single boolean variable (`found`).
 
-
-
-```
-
-```
